@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>中国邮政网上营业厅</title>
+</head>
+<link href="stamp.css" rel="stylesheet" type="text/css">
+
+</style>
+<body onLoad="start()">
+<!--头部-->
+<div class="header_wrap">
+      <div class="header">
+          你好， [<a href="#">请登陆</a>] 
+          <a href="#">免费注册</a> <span>|</span>
+          <a href="#">个人中心</a> <span>|</span> 
+          <a href="#">购物车 </a><span>|</span> 
+          <a href="#">收藏夹</a> <span>|</span> 
+          <a href="#">关注我们 </a><span>|</span>
+          <a href="#">在线客服 </a><span>|</span> 
+          <a href="#">帮助中心</a>
+      </div>
+</div>
+<!--LOGO-->
+<div class="logo">
+
+	 <a href="#"><img src="images/logo.jpg"></a>
+    <form action="" method="get">
+    	<input type="text">
+        <input type="button" value="搜 索">
+    </form>
+     <a href="#" class="service"><img src="images/service.png"></a>
+     <span>
+     		<a href="#">首页</a>
+            <a href="#">邮票零售</a>
+            <a href="#">邮品零售</a>
+            <a href="#">集邮者之家</a>
+            <a href="#">地方特色</a>
+            <a href="#">珍邮竞买</a>
+            <a href="#">集邮网院</a>
+            <a href="#">生肖博物馆</a>
+           <strong class="more">
+           		查看更多
+               <div class="logo_more">
+                  <span></span>
+                  <a class="logo_more_a" href="#">零售查询</a>
+                  <a class="logo_more_a" href="#">大话新邮</a>
+                  <a class="logo_more_a" href="#">文化专区</a>
+                  <a class="logo_more_a" href="#">仿印查询</a>
+                  <a class="logo_more_a" href="#">特许查询</a>
+              </div>
+            </strong>
+        </span> 
+     
+</div>
+<!--文字滚动-->
+<marquee class="run_font" behavior="scroll">因客户端的多样性与浏览器的多样性，各客户端对于浏览器的兼容性都不一样，我们建议您在windows系统电脑下使用chrome，ie8以上浏览器，体验更流畅</marquee>
+<!--main包含(nav,banner,code,news-->
+<div id="main_wrap" onMouseOver="stop()" onMouseOut="start()"></div>
+	<div id="main" >
+    	<img class="nav_bg" src="images/nav.png">
+        <nav>
+        	<ul>
+            	<li class="nav_li">
+                	<p>票品题材</p><span><img src="images/ckgd.png"></span>
+                	<ul>
+                    	<li><a href="#">生肖</a></li>
+                        <li><a href="#">年册</a></li>
+                        <li><a href="#">青少年</a></li>
+                        <li><a href="#">文化</a></li>
+                        <li><a href="#">政治</a></li>
+                        <li><a href="#">经济</a></li>
+                        <li><a href="#">军事</a></li>
+                        <li><a href="#">科技</a></li>
+                        <li><a href="#">风光</a></li>
+                        <li><a href="#">节日</a></li>
+                        <li><a href="#">体育</a></li>
+                        <li><a href="#">实寄</a></li>
+                        <li><a href="#">珍邮</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>中国邮票</p><span><img src="images/ckgd.png"></span>
+                	<ul>
+                    	<li><a href="#">邮票</a></li>
+                        <li><a href="#">小型张</a></li>
+                        <li><a href="#">小本票</a></li>
+                        <li><a href="#">小版票</a></li>
+                        <li><a href="#">大版票</a></li>
+                        <li><a href="#">风琴折</a></li>
+                        <li><a href="#">本票册</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>邮资封片</p><span><img src="images/ckgd.png"></span>
+                	<ul>
+                    	<li><a href="#">纪念邮资封</a></li>
+                        <li><a href="#">纪念邮资片</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>个性化邮票</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">个性化邮票</a></li>
+						<li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>港澳邮票</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">香港邮票</a></li>
+                        <li><a href="#">澳门邮票</a></li>
+                         <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>外国邮票</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">英国</a></li>
+                        <li><a href="#">美国</a></li>
+                        <li><a href="#">澳大利亚</a></li>
+                        <li><a href="#">新西兰</a></li>
+                        <li><a href="#">加拿大</a></li>
+                        <li><a href="#">日本</a></li>
+                        <li><a href="#">韩国</a></li>
+                        <li><a href="#">新加坡</a></li>
+                        <li><a href="#">瑞士</a></li>
+                        <li><a href="#">法国</a></li>
+                        <li><a href="#">其他</a></li>
+                   </ul>
+                </li>
+                <li  class="nav_li"><p>集邮品</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">集邮信封</a></li>
+                        <li><a href="#">集邮明信片</a></li>
+                        <li><a href="#">集邮卡</a></li>
+                        <li><a href="#">集邮折</a></li>
+                        <li><a href="#">集邮册</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li  class="nav_li"><p>集邮商品</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">仿印制品</a></li>
+                        <li><a href="#">挂件</a></li>
+                        <li><a href="#">摆件</a></li>
+                        <li><a href="#">贵金属制品</a></li>
+                        <li><a href="#">纸钞硬币</a></li>
+                        <li><a href="#">徽章</a></li>
+                        <li><a href="#">玩具文具</a></li>
+                        <li><a href="#">其他</a></li>
+                 	</ul>
+                </li>
+                <li  class="nav_li"><p>集邮用品</p><span><img src="images/ckgd.png"></span>
+                	<ul  >
+                    	<li><a href="#">集邮用具</a></li>
+                        <li><a href="#">空册</a></li>
+                        <li><a href="#">书籍</a></li>
+                        <li><a href="#">其他</a></li>
+                 	</ul>
+                </li>
+                <li  class="nav_li"><p>更多分类</p><span><img src="images/ckgd.png"></span>              
+                </li>
+			</ul>
+        </nav>
+        <!--轮播-->
+    	<div id="banner" onMouseOver="stop()" onMouseOut="start()">
+        		<img src="images/1.jpg" style="display:block" >
+                <img src="images/2.jpg">
+                <img src="images/3.jpg">
+                <img src="images/4.jpg">
+                <img src="images/5.jpg">
+        </div>       
+        <!--二维码-->
+        <div  class="code">
+            	<a href="#"  id="and_btn" onMouseOver="Android()" style="background:#fff">安卓</a>
+                <a href="#" id="wec_btn" onMouseOver="WeChat()">微信</a>
+                <a href="#"  id="ios_btn" onMouseOver="IOS()" style="margin-right:0px;">ios</a>
+            	<img id="and" src="images/2_Android.png">  
+                <img id="wec" src="images/2_WeChat.jpg" style="display:none">   
+                <img id="ios" src="images/2_IOS.jpg" style="display:none">            
+      </div>
+      <!--新闻-->
+     	<div class="news">
+      			<span  id="new1_btn" onMouseOver="show_new1()" style="background:#fff">新闻</span>
+                <span id="new2_btn" onMouseOver="show_new2()">公告</span>
+                <span  id="new3_btn" onMouseOver="show_new3()" style="margin-right:0px;">博览</span>
+                <div id="new1">
+                		<a href="#">【新闻】2017年中国集邮生 ...</a>
+                        <a href="#">【新闻】首届中国航空航天邮展 ...</a>
+                        <a href="#">【新闻】李玉刚：是邮票带我& ...</a>
+                        <a href="#">【新闻】《中华孝道（二）》邮 ...</a>
+                        <a href="#">【新闻】ISO大会纪念邮票在 ...</a>
+                        <a href="#">【新闻】多地举办《海上丝绸之 ...</a>
+						<a href="#">查看更多</a>
+                </div>
+                <div id="new2" style="display:none">        
+                        <a href="#">【公告】湖南专区收入破亿感恩 ...</a>
+                        <a href="#">【公告】关于《西游记（二）四 ...</a>
+                        <a href="#">【公告】关于《第37届全国最 ...</a>
+                        <a href="#">【公告】湖南集邮网厅会员招募 ...</a>
+                        <a href="#">【公告】关于《相约自然》邮票 ...</a>
+                        <a href="#">【公告】狂欢趴 等你来 ...</a>
+						<a href="#">查看更多</a>
+                </div>
+                <div id="new3" style="display:none">        
+                        <a href="#">【博览】《中国集邮年刊（20 ...</a>
+                    	<a href="#">【博览】《中国集邮年刊》（2 ...</a>
+                        <a href="#">【博览】《中国集邮年刊（20 ...</a>
+                        <a href="#">【博览】邮票上的APEC</a>
+                        <a href="#">【博览】邮集制作窍门</a>
+                        <a href="#">【博览】《集邮博览》2015 ...</a>
+						<a href="#">查看更多</a>
+                </div>
+      </div>
+      <!--按钮-->
+       <div id="btn">
+        	<button value="0" onMouseOver="change(this)" onMouseOut="start()" style="background: url(images/b-2.png)">1</button>
+            <button value="1" onMouseOver="change(this)" onMouseOut="start()">2</button>
+            <button value="2" onMouseOver="change(this)" onMouseOut="start()">3</button>
+            <button value="3" onMouseOver="change(this)" onMouseOut="start()">4</button>
+            <button value="4" onMouseOver="change(this)" onMouseOut="start()">5</button>
+        </div>      
+	</div>
+ <!--内容部分-->
+<div class="content">
+	<div class="content_video">
+    	<video src="images/youzheng.mp4" controls poster="images/161270367.jpg" >			
+        </video>
+        <div><p>推荐商品</p></div>
+        <a href="#"><img width="140" height="140" src="images/yushou1.jpg"></a>
+        <a href="#"><img width="230"  height="140" src="images/one1.jpg"></a>
+    </div>
+    <section class="sec_bg1">
+    	<p><strong>邮品零售</strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/aa.png"></a></aside>
+        <div><a href="#"><img src="images/a1.jpg">《游书海 戏童年》邮票书（中国集邮总公司/儿童游戏）</a><p><strong>¥60.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a2.jpg">《儿童游戏(一)》特种邮票创作札记（中国集邮总公司/儿童游...</a><p><strong>¥128.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a3.jpg">《在一起的好时光》邮票珍藏版任务卡（中国集邮总公司/儿童游...</a><p><strong>¥68.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a4.jpg">《儿童游戏（一）》首日封（中国集邮总公司/儿童游戏）</a><p><strong>¥8.40</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a5.jpg">《邮票上的西游记（二）》整版册</a><p><strong>¥239.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a6.jpg">《“一带一路”国际合作高峰论坛》特种纪念封</a><p><strong>¥3.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a7.jpg">《“一带一路”国际合作高峰论坛》巡展纪念封</a><p><strong>¥3.20</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/a8.jpg">《中国恐龙》本票册（全国摇号商品）</a><p><strong>¥50.00</strong><span>[预售]</span></p></div>             
+    </section>
+    <section class="sec_bg2">
+    	<p><strong>邮票零售专区</strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/bb.jpg"></a></aside>
+        <div><a href="#"><img src="images/b1.jpg">《第23届亚洲乒乓球锦标赛》纪念邮资明信片</a><p><strong>¥1.20</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b2.jpg">红山文化玉器</a><p><strong>¥3.60</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b3.jpg">中国古典文学名著－－《西游记》（二）</a><p><strong>¥5.40</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b4.jpg">中国古典文学名著－－《西游记》（二）小版</a><p><strong>¥10.80</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b5.jpg">春夏秋冬</a><p><strong>¥5.40</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b6.jpg">春夏秋冬小版</a><p><strong>¥10.80</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b7.jpg">京津冀协同发展</a><p><strong>¥3.90</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/b8.jpg">《第23届亚洲乒乓球锦标赛》纪念邮资明信片</a><p><strong>¥5.80</strong><span>[预售]</span></p></div>             
+    </section>
+    <img class="content_banner" src="images/content_banner1.jpg">
+    <section class="sec_bg3">
+    	<p><strong>《中国恐龙》系列邮品专区</strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/cc.jpg"></a></aside>
+        <div><a href="#"><img src="images/c1.jpg">《相约自然》邮册</a><p><strong>¥298.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c2.jpg">《七只小恐龙》模型套装</a><p><strong>¥298.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c3.jpg">《恐龙乐园》 印章套装/a><p><strong>¥168.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c4.jpg">《它们：恐龙时代》邮票图书</a><p><strong>¥198.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c5.jpg">《中国恐龙》雕刻版极限片</a><p><strong>¥52.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c6.jpg">《中国恐龙》邮票镜框B款（含小型张）</a><p><strong>¥178.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c7.jpg">《探索与发现》恐龙考古挖掘套装</a><p><strong>¥320.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/c8.jpg">《杨杨和赵闯的恐龙物语》邮票书（一套四本）</a><p><strong>¥158.00</strong><span>[预售]</span></p></div>             
+    </section>
+    <section class="sec_bg1">
+    	<p><strong>品邮藏珍</strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/dd.jpg"></a></aside>
+        <div><a href="#"><img src="images/d1.png">《圆梦丝路》文化册 [预售]</a><p><strong>¥258.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d2.jpg">《共建“一带一路” 共创美好未来》整版票册</a><p><strong>¥98.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d3.png">《邮票上的西游记（二）》整版册<p><strong>¥239.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d4.png">《西天取经那些事（二）》口袋书</a><p><strong>¥43.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d5.png">《四季的脚步》作家笔下的春夏秋冬邮票珍藏</a><p><strong>¥158.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d6.png">《京津冀协同发展》邮票书</a><p><strong>¥66.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d7.png">《千里江山图》特种邮票品评</a><p><strong>¥188.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/d8.png">《多彩四季》邮册</a><p><strong>¥158.00</strong><span>[预售]</span></p></div>             
+    </section>
+     <img class="content_banner" src="images/content_banner2.jpg">
+     <section class="sec_bg2">
+    	<p><strong>湖南专区收入破亿感恩大回馈活动</strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/ee.jpg"></a></aside>
+        <div><a href="#"><img src="images/e1.jpg">[感恩大回馈] 《邮折系列礼包》</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e2.jpg">[ 感恩大回馈 ] 《大版册系列礼包》</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e3.jpg">[ 感恩大回馈 ] 《小版册系列礼包》<p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e4.jpg">[感恩大回馈] 《镜框系列礼包》</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e5.jpg">[感恩大回馈] 《红色系列礼包》</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e6.jpg">[感恩大回馈] 《本票系列礼包》</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e7.jpg">[感恩大回馈] 《超值系列礼包》</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/e8.jpg">[六一钜惠] 《恐龙足迹》</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>             
+    </section>
+    <section class="sec_bg3">
+    	<p><strong>第37届全国最佳邮票评选纪念珍藏邮品 </strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/ff.jpg"></a></aside>
+        <div><a href="#"><img src="images/f1.jpg">《佳邮珍藏 -金》第37届最佳邮票评选纪念“佳邮金”</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f2.jpg">《佳邮珍藏-银》第37届最佳邮票评选纪念“佳邮银”</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f3.jpg">《佳邮荟萃》第37届最佳邮票评选纪念精装卡书<p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f4.jpg">《佳邮·特供珍藏》2007-2017特供纪念张汇编</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f5.jpg">《唯有暗香来》中国古代名画珍邮大全</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f6.jpg">《每逢佳节倍思亲》</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/f7.jpg">《鹏城万里》</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>           
+    </section>
+    <section class="sec_bg1">
+    	<p><strong>狂欢趴 等你来 邮意思3周年庆 </strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   src="images/gg.jpg"></a></aside>
+        <div><a href="#"><img src="images/g1.jpg">【邮意思】《生肖瑰宝》</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g2.jpg">【邮意思】《戴敦邦缘画红楼梦》邮册</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g3.jpg">【邮意思】《美林紫砂情》邮票紫砂纪念册套装</a><p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g4.jpg">【邮意思】《凤舞九天 精彩中国》（双倍积分）</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g5.jpg">【邮意思】《一二三轮生肖邮票珍藏册》</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g6.jpg">【邮意思】《哆啦A梦大拜年》邮册（双倍积分）</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/g7.jpg">【邮意思】2008年大版册</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>  
+        <div><a href="#"><img src="images/g8.jpg">【邮意思】《马上封侯》邮册</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>           
+    </section>
+    <section class="sec_bg2">
+    	<p><strong>狂欢趴 等你来 邮意思3周年庆 </strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   width="402" src="images/hh.jpg"></a></aside>
+        <div><a href="#"><img src="images/h1.jpg">《圆梦丝路》文化册</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h2.jpg">《李云中与西游记B款》邮册</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h3.jpg">《大国外交》邮册</a><p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h4.jpg">《李云中与西游记C款》邮册</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h5.jpg">《传家宝》B款珍藏册</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h6.png">《珠联璧合》（一带一路）</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/h7.png">中华魂-长江长城黄河大长卷</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>  
+        <div><a href="#"><img src="images/h8.jpg">富春山居图大邮票</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>           
+    </section>
+    <section class="sec_bg3">
+    	<p><strong>狂欢趴 等你来 邮意思3周年庆 </strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   width="402" src="images/ii.jpg"></a></aside>
+        <div><a href="#"><img src="images/i1.jpg">《浙江大学建校一百二十周年》邮票金套装</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i2.jpg">《学萟履节》中国大学专题册</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i3.jpg">《求是创新》银章大版邮册</a><p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i4.jpg">《浙江大学建校一百二十周年》邮票金砖套装</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i5.jpg">《浙江大学建校一百二十周年》大铜章（紫铜）</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i6.jpg">《浙江大学建校一百二十周年》和田青玉印章</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/i7.jpg">《浙江大学建校一百二十周年》邮票贝雕摆件</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>  
+        <div><a href="#"><img src="images/i8.jpg">《浙江大学建校一百二十周年》原地纪念封</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>           
+    </section>
+    <section class="sec_bg1">
+    	<p><strong>狂欢趴 等你来 邮意思3周年庆 </strong><a href="">查看更多<img src="images/ckgd.png"><img src="images/ckgd.png"></a></p>
+        <aside ><a href="#"><img   width="402" src="images/jj.jpg"></a></aside>
+        <div><a href="#"><img src="images/j1.jpg">《邮票上的西游记（二）》整版册</a><p><strong>¥190.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·戌狗》四方连邮票珍藏</a><p><strong>¥200.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·午马》四方连邮票珍藏</a><p><strong>¥380.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·寅虎》四方连邮票珍藏</a><p><strong>¥88.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·巳蛇》四方连邮票珍藏</a><p><strong>¥828.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·寅虎》四方连邮票珍藏</a><p><strong>¥118.00</strong><span>[预售]</span></p></div>
+        <div><a href="#"><img src="images/j2.jpg">《全家福·辰龙》四方连邮票珍藏</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>  
+        <div><a href="#"><img src="images/j2.jpg">《全家福·子鼠》四方连邮票珍藏</a><p><strong>¥168.00</strong><span>[预售]</span></p></div>           
+    </section>
+</div>
+
+ <!--底部-->
+<div class="bottom">
+	<div class="bottom_pic">
+    	<img src="images/fw1.jpg"><h2>品质保证</h2><p>品质护航，购物无忧
+</p>
+    </div>
+    <div class="bottom_pic">
+    	<img src="images/fw3.jpg"><h2>特色服务</h2><p>为您呈现不一样的服务
+</p>
+    </div>
+    <div class="bottom_pic">
+    	<img src="images/fw2.jpg"><h2>集藏文化</h2><p>收藏 投资 交流
+</p>
+    </div>
+    <div class="bottom_pic" style="border:0" >
+    	<img src="images/fw4.jpg"><h2>联系我们</h2>
+        <p>11185-9-1</p>
+		<span>11185-1-2-1</span>
+    </div>
+    <hr >
+    <div class="bottom_list"> 
+    	<strong>服务</strong>
+		<a href="#">换货协议</a>
+        <a href="#">保证金规则介绍</a>
+        <a href="#">竞买流程及注意事项</a>
+        <a href="#">免责条款</a>
+        <a href="#">关于我们</a>
+    </div>
+    <div class="bottom_list"> 
+    	<strong>配送方式</strong>
+		<a href="#">配送范围</a>
+        <a href="#">配送方式</a>
+    </div>
+    <div class="bottom_list"> 
+    	<strong>支付方式</strong>
+		<a href="#">支付方式</a>
+        <a href="#">付款常见问题</a>
+    </div>
+    <div class="bottom_list"> 
+    	<strong>新手上路</strong>
+		<a href="#">积分规则</a>
+        <a href="#">购物流程</a>
+        <a href="#">常见问题</a>
+        <a href="#">注册服务条款</a>
+        <a href="#">隐私保护政策</a>
+    </div>
+	
+</div>
+ <!--尾部-->
+ <div class="footer_wrap">
+    <div class="footer">
+        <p>因客户端的多样性与浏览器的多样性，各客户端对于浏览器的兼容性都不一样，我们建议您在windows系统电脑下使用chrome，ie8以上浏览器，体验更流畅；</p>
+         <p>Copyright © 2003-2014 中国邮政版权所有 备案/许可证编号为：京ICP备11025334号 经营许可证编号:京ICP证110573号</p>
+    </div>
+</div>
+<script>
+<!--二维码、新闻-->
+function Android(){
+	document.getElementById("and").style.display="block";
+	document.getElementById("wec").style.display="none";
+	document.getElementById("ios").style.display="none";	
+	document.getElementById("and_btn").style.background="#fff";
+	document.getElementById("wec_btn").style.background="#E1EbE8";	
+	document.getElementById("ios_btn").style.background="#E1EbE8";	
+}
+function WeChat(){
+	document.getElementById("and").style.display="none";
+	document.getElementById("wec").style.display="block";
+	document.getElementById("ios").style.display="none";	
+	document.getElementById("and_btn").style.background="#E1EbE8";
+	document.getElementById("wec_btn").style.background="#fff";	
+	document.getElementById("ios_btn").style.background="#E1EbE8";	
+}
+function IOS(){
+	document.getElementById("and").style.display="none";
+	document.getElementById("wec").style.display="none";
+	document.getElementById("ios").style.display="block";	
+	document.getElementById("and_btn").style.background="#E1EbE8";
+	document.getElementById("wec_btn").style.background="#E1EbE8";	
+	document.getElementById("ios_btn").style.background="#fff";	
+}
+function show_new1(){
+	document.getElementById("new1").style.display="block";
+	document.getElementById("new2").style.display="none";
+	document.getElementById("new3").style.display="none";	
+	document.getElementById("new1_btn").style.background="#fff";
+	document.getElementById("new2_btn").style.background="#E1EbE8";	
+	document.getElementById("new3_btn").style.background="#E1EbE8";	
+}
+function show_new2(){
+	document.getElementById("new1").style.display="none";
+	document.getElementById("new2").style.display="block";
+	document.getElementById("new3").style.display="none";	
+	document.getElementById("new1_btn").style.background="#E1EbE8";
+	document.getElementById("new2_btn").style.background="#fff";	
+	document.getElementById("new3_btn").style.background="#E1EbE8";	
+}
+function show_new3(){
+	document.getElementById("new1").style.display="none";
+	document.getElementById("new2").style.display="none";
+	document.getElementById("new3").style.display="block";	
+	document.getElementById("new1_btn").style.background="#E1EbE8";
+	document.getElementById("new2_btn").style.background="#E1EbE8";	
+	document.getElementById("new3_btn").style.background="#fff";	
+}
+<!--图片轮播-->
+var timer;
+b=1;
+function run(){
+		var ban=document.getElementById("banner");
+		var imgs=ban.getElementsByTagName("img");		
+		var bg=document.getElementById("main_wrap");
+		var btn=document.getElementsByTagName("button");		
+		for(var i=0;i<imgs.length;i++){
+			imgs[i].style.display="none";
+			btn[i].style.background="url(images/b-1.png) repeat-x";
+					}
+		if(b>=5){b=0;}		
+		imgs[b].style.display="block";
+		btn[b].style.background="url(images/b-2.png) repeat-x ";
+		ban.style.animation="abc ease-in 4s infinite";
+		bg.style.animation="abc ease-in 4s infinite";	
+		if(b==1){ bg.style.background="#f90";}
+		else if(b==3){ bg.style.background="#6ff";}
+		       else { bg.style.background="#1CB37A";}			
+		b++;
+	}
+	function start(){
+		timer=setInterval("run()",4000);
+	}
+	function stop(){
+		clearInterval(timer);
+		var ban=document.getElementById("banner");
+		var bg=document.getElementById("main_wrap");
+		ban.style.animation="none";
+		bg.style.animation="none";
+	}
+	function change(a){
+		clearInterval(timer);
+		var ban=document.getElementById("banner");
+		var imgs=banner.getElementsByTagName("img");
+		var bg=document.getElementById("main_wrap");	
+		var btn=document.getElementsByTagName("button");		
+		ban.style.animation="none";
+		bg.style.animation="none";
+		for(var i=0;i<imgs.length;i++){
+			if(i!=a.value){
+				imgs[i].style.display="none";
+				btn[i].style.background="url(images/b-1.png) repeat-x ";}
+			else if(i==1){ bg.style.background="#f90";imgs[i].style.display="block";
+									btn[i].style.background="url(images/b-2.png) repeat-x ";b=i+1}
+				else if(i==3){ bg.style.background="#6ff";imgs[i].style.display="block";
+								btn[i].style.background="url(images/b-2.png) repeat-x ";b=i+1}
+		       		else { bg.style.background="#1CB37A";imgs[i].style.display="block";
+							btn[i].style.background="url(images/b-2.png) repeat-x ";b=i+1}
+		}
+	}
+
+</script>
+</body>
+</html>
